@@ -54,10 +54,9 @@ header {
 }
 
 .logo {
-    font-size: 26px;
-    font-weight: 700;
-
-    color: #2563eb;
+    display: flex;
+    align-items: center;
+    gap: 14px;
 }
 
 .nav-links {
@@ -1106,4 +1105,26 @@ img {
 
 .nav-links a:hover::after {
     width: 100%;
+}
+.logo-icon {
+    width: 55px;
+    height: 55px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: linear-gradient(135deg, #a855f7, #7c3aed);
+    color: #ffffff;
+
+    border-radius: 50%;
+
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.logo h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #222222;
 }
